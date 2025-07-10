@@ -1,0 +1,208 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3e9dc;
+  color: #333;
+}
+
+header {
+  background-color: #e0b084;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.tip-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+.tip-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  text-align: center;
+  margin-top: 0;
+  color: #333;
+}
+.tip-card p {
+  color: #555;
+  text-align: center;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.form-box, .info-box {
+  background-color: #e6bb8d;
+  padding: 40px;
+  border-radius: 16px;
+  flex: 1 1 400px;
+  min-height: 300px;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+form label, form input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #e0b084;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2e8b57;
+}
+
+.page-wrapper {
+  background-color: #ffeedc;
+  min-height: 100vh;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.image-box { 
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;  
+}
+
+.bottom-section {
+  background-color: #e6bb8d;
+  padding: 30px 40px;
+  border-radius: 16px;
+  margin: 20px auto 0 auto;
+  max-width: 1000px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.bmi-wrapper {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.hero-tips {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color:rgb(255, 255, 255);  
+  
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+
+
+/* стилі для входу і реєстрації*/
+.auth-wrapper {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #fff0e0;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.auth-wrapper h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.auth-wrapper p {
+  color: #b33;
+  text-align: center;
+  font-weight: bold;
+}
+
+.auth-wrapper form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.auth-wrapper form input[type="text"],
+.auth-wrapper form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.auth-wrapper form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #e0b084;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.auth-wrapper form input[type="submit"]:hover {
+  background-color: #cf9a6f;
+}
